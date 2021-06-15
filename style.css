@@ -2,6 +2,10 @@
 max-width: 1000px;
 margin: auto;
 }
+body{
+    background-color: cadetblue;
+}
+
 .formcontainer1{
     max-width: 800px;
     height: auto;
@@ -12,12 +16,14 @@ margin: auto;
     border: 3px solid rgb(28, 197, 79);
     width: 200px;
     padding: 5px;
+    
 }
 .inputttart{
     border: 3px solid rgb(28, 197, 79);
     width: 200px;
     padding: 5px;
     height: 30px;
+    
 }
 header{
     margin: auto;
@@ -31,6 +37,7 @@ header{
     margin-bottom: 20px;
     margin-left: 30px;
     max-width: 400px;
+    border: 2px solid aqua;
     
 }
 .karma{
@@ -49,18 +56,47 @@ header{
 {
     float: left;
 }
-.inputtt2,
+.inputtt2{
+    border: 3px solid rgb(28, 197, 79);
+    padding: 5px;
+    margin-left: 30px;
+    
+    
+}
 .inputtt3{
     float: left;
     margin-bottom: 20px;
-    margin-left: 30px;
-    max-width: 60px;
+    
+    
     padding: 5px;
     border: 3px solid rgb(28, 197, 79);
 }
-@media screen and (max-width:600px){ .formcontainer2{
-    margin: 10px 10px 0px 0px;
+.yanyana2{
+    display: inline;
 }
+.yanyana{
+    display: inline;
+}
+.inputttart3{
+    width: 100%;
+    border: 3px solid rgb(28, 197, 79);
+    
+    padding: 5px;
+    height: 30px;
+}
+@media (max-width:884px){ .formcontainer2{
+    margin: 8px 10px 0px 0px;
     
 }
+}
+@media (min-width:884px) and (max-width:917){ .formcontainer2{
+    margin: 8px 10px 0px 0px;
+    display: block;
+}
+}
+/* @media only screen and (min-width:885px) and (max-width:914px) { .formcontainer2{
+    margin: 8px 10px 0px 0px;
+    
+    
+} */
 label {display: inline-block;}
